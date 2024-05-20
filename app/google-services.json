@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678797576532",
+    "project_id": "imageuploadtest-80d43",
+    "storage_bucket": "imageuploadtest-80d43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678797576532:android:9ad5f16a0fe898861920c1",
+        "android_client_info": {
+          "package_name": "dev.panwar.uploadimage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwACR7DyG_CGV4HYjBOGeTOXouoRrb9-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
