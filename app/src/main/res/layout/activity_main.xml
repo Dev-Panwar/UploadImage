@@ -8,9 +8,32 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/test_selfie"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/placeholder1"
+        android:scaleType="fitXY"
+        android:text="Hello World!"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/img_selfie_size"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/test_selfie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="selected-image-size"
+        />
+
+    <ImageView
         android:id="@+id/test_img"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/placeholder1"
         android:scaleType="fitXY"
         android:text="Hello World!"

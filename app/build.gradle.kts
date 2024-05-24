@@ -55,4 +55,11 @@ dependencies {
 
 //    dependency for using firebase Storage to store our Images
     implementation("com.google.firebase:firebase-storage-ktx")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+//    implementation ("androidx.viewpager2:viewpager2:1.1.0-beta02")
+
+    implementation ("com.android.volley:volley:1.2.1")
 }
